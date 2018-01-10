@@ -13,7 +13,9 @@ rabbitmq-send-mq.xml:
 ![a4](picture/a4.png "a4.png")
 
 第三步：配置properties 。。连接rabbitmq rabbitmq.properties 
-![a5](picture/a5.png "a5.png")
+rabbit.mq:address=127.0.0.1:5672
+rabbit.mq.userName=zzl
+rabbit.mq.pasword=admin
 
 第四步：引用相关的properties和接收发的xml文件 Properties在applicationContext-resources.xml 中配置
 ![a6](picture/a6.png "a6.png")
