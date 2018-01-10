@@ -18,14 +18,14 @@ rabbitmq-send-mq.xml:
 第四步：引用相关的properties和接收发的xml文件 Properties在applicationContext-resources.xml 中配置
 ![a6](picture/a6.png "a6.png")
 
-接收发xml在web.xml中配置:
+第五步：接收发xml在web.xml中配置:
 ![a7](picture/a7.png "a7.png")
 
-第五步 ：写发消息的方法:
+第六步 ：写发消息的方法:
 ![a8](picture/a8.png "a8.png")
 
-第六步 ：写接收消息的方法:
+第七步 ：写接收消息的方法:
 ![a9](picture/a9.png "a9.png")
 
-第七步：controller 中引用方法:
+第八步：controller 中引用方法:
 ![a10](picture/a10.png "a10.png")
