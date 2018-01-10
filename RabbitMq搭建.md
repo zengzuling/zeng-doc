@@ -1,5 +1,6 @@
 第一步:将需要的包加载进来，如有架包直接在pom文件中引用就可以，如:
 ![a1](picture/a1.png "a1.png")
+
 第二步：配置相关的配置文件rabbitmq-connection-mq.xml 用于连接rabbitmq服务端 rabbitmq-receive-mq.xml监听接收消息，rabbitmq-send-mq.xml发送消息。。。
 rabbitmq-connection-mq.xml:
 ![a2](picture/a2.png "a2.png")
